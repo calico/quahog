@@ -1,0 +1,29 @@
+Package: quahog
+Type: Package
+Title: Quahog Calico Lipidomics and Metabolomics Pipeline
+Version: 1.0.0
+Authors@R: c(
+    person("Sean", "Hackett", email = "sean@calicolabs.com", role = c("aut", "cre")),
+    person("Phillip", "Seitzer", email = "phillipseitzer@calicolabs.com", role = "aut"))
+Author: Sean Hackett
+Maintainer: Sean Hackett <sean@calicolabs.com>
+Description: Pipeline-associated functions for CLaM searches
+Depends: R (>= 3.2.3)
+Imports: DBI,
+    dplyr,
+    debugr,
+    ggplot2,
+    glue,
+    jsonlite,
+    processx,
+    purrr,
+    stringr
+Suggests:
+    clamr,
+    clamdb,
+    clamqc,
+    future
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

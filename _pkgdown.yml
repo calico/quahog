@@ -1,0 +1,23 @@
+reference:
+- title: "Modules"
+  desc: "Modules which update an mzrollDB file"
+- contents:
+  - starts_with("pipeline")
+- title: "Input Checking"
+  desc: >
+    Methods for parsing command line inputs and environment validation.
+- contents:
+  - mzkit_config_file_from_default
+  - format_flagged_arguments
+  - reclass_cmd_args
+  - test_rwrapper
+  - test_quahog_packages
+- title: "Dev Tools"
+  desc: >
+    Methods for working with quahog during development.
+- contents:
+  - run_quahog
+  - sideload_json_config
+template:
+  params:
+    bootswatch: flatly
