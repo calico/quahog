@@ -11,13 +11,18 @@ Description: Pipeline-associated functions for CLaM searches
 Depends: R (>= 3.2.3)
 Imports: DBI,
     dplyr,
+    dbplyr,
     debugr,
     ggplot2,
     glue,
     jsonlite,
     processx,
     purrr,
-    stringr
+    stringr,
+    RMySQL,
+    readr,
+    tibble,
+    tidyr
 Suggests:
     clamr,
     clamdb,

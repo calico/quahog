@@ -27,9 +27,11 @@ unspecified defaults.
 Currently vector arguments are not supported.
 }
 \examples{
-reclass_cmd_args(chr_list = list(cosine_cutoff = "0.96", print_plots = "TRUE", show_specific_samples = "1", fu = "bar"),
-                 call_fxn = clamr::ms2_driven_aligner,
-                 default_args = list(group_by_charge = FALSE, maximum_mz_set_size = 200L, cosine_cutoff = 0.95, spline_ridge_penalty = 200, print_plots = TRUE),
-                 other_args = c(show_specific_samples = "integer"))
+reclass_cmd_args(
+  chr_list = list(cosine_cutoff = "0.96", print_plots = "TRUE", show_specific_samples = "1", fu = "bar"),
+  call_fxn = clamr::ms2_driven_aligner,
+  default_args = list(group_by_charge = FALSE, maximum_mz_set_size = 200L, cosine_cutoff = 0.95, spline_ridge_penalty = 200, print_plots = TRUE),
+  other_args = c(show_specific_samples = "integer")
+)
 
 }
