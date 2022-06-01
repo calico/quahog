@@ -319,7 +319,7 @@ setup_matching_model <- function(dots) {
     asset_path <- do.call(file.path, as.list((c(stringr::str_split(dots$r_scripts_path, pattern = .Platform$file.sep)[[1]] %>%
       {
         .[-length(.)]
-      }, "assets", "matching_models", dots$matching_model))))
+      }, "open_CLaM", "matching_models", dots$matching_model))))
 
     if (file.exists(dots$matching_model)) {
       matching_model <- readRDS(dots$matching_model)
